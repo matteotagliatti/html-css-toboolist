@@ -1,0 +1,77 @@
+/* Variables */
+
+:root {
+    --light-grey: #f6f8f9;
+}
+
+/* Reset */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global */
+
+body {
+    background-color: var(--light-grey);
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+h2 {
+    padding-top: 30px;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+/* Classi */
+
+.logo-header {
+    padding: 15px;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.logo {
+    vertical-align: middle;
+    height: 50px;
+
+}
+
+.logo-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.container {
+    width: 70%;
+    margin: 40px auto;
+    padding: 0 50px 50px 40px;
+}
+
+.section-header {
+    padding: 10px 0;
+    border-bottom: 2px solid var(--light-grey);
+}
+
+.tasks-container {
+    
+}
+
+/* ID */
+
+#add-task {
+
+}
