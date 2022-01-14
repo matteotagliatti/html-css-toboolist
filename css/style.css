@@ -26,6 +26,10 @@ main {
     margin: 40px auto;
 }
 
+section {
+    border-radius: 10px;
+}
+
 button {
     padding: 7px 10px;
     border-radius: 4px;
