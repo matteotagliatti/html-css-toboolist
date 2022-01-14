@@ -2,6 +2,7 @@
 
 :root {
     --light-grey: #f6f8f9;
+    --light-blue: #47adf1;
 }
 
 /* Reset */
@@ -21,7 +22,7 @@ body {
 }
 
 button {
-    padding: 5px 10px;
+    padding: 7px 10px;
     border-radius: 4px;
 }
 
@@ -66,12 +67,23 @@ li {
     border-bottom: 2px solid var(--light-grey);
 }
 
-.tasks-container {
-    
+.arrow-down::before {
+    margin-right: 5px;
+    content: "⯆";
+    font-size: 0.9rem;
+    vertical-align: 4px;
 }
 
 /* ID */
 
 #add-task {
+    background-color: var(--light-blue);
+    border: 1px solid var(--light-blue);
+    color: white;
+}
 
+#add-section {
+    background-color: white;
+    border: 1px solid gray;
+    color: gray;
 }
