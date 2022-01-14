@@ -63,15 +63,40 @@ li {
 }
 
 .section-header {
-    padding: 10px 0;
+    padding: 18px 0 10px 0;
     border-bottom: 2px solid var(--light-grey);
 }
 
 .arrow-down::before {
-    margin-right: 5px;
     content: "⯆";
     font-size: 0.9rem;
     vertical-align: 4px;
+}
+
+.check,
+.cross {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 0.8rem;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.check {
+    color: green;
+    border: 1px solid green;
+}
+
+.cross {
+    color: red;
+    border: 1px solid red;
+}
+
+.arrow-down::before,
+.check,
+.cross {
+    margin-right: 7px;
 }
 
 /* ID */
