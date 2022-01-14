@@ -77,13 +77,16 @@ li {
     vertical-align: 4px;
 }
 
-.check,
-.cross {
+.symbol,
+.category {
     display: inline-block;
+    text-align: center;
+}
+
+.symbol {
     width: 20px;
     height: 20px;
     font-size: 0.8rem;
-    text-align: center;
     border-radius: 50%;
 }
 
@@ -98,9 +101,46 @@ li {
 }
 
 .arrow-down::before,
-.check,
-.cross {
+.symbol {
     margin-right: 7px;
+}
+
+.category {
+    margin-left: 7px;
+    padding: 7px;
+    width: 75px;
+    height: 28px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    color: white;
+}
+
+.bg-blue {
+    background-color: var(--light-blue);
+}
+
+.bg-purple {
+    background-color: #9c72e4;
+}
+
+.bg-green {
+    background-color: #64c0a9;
+}
+
+.bg-yellow {
+    background-color: #f29e33;
+}
+
+.bg-pink {
+    background-color: #d863a1;
+}
+
+.bg-lightgreen {
+    background-color: #b0c926;
+}
+
+.pb-40 {
+    padding-bottom: 40px;
 }
 
 /* ID */
